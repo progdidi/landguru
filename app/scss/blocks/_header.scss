@@ -1,0 +1,50 @@
+.header {
+    .header__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo {
+        }
+        .menu {
+        }
+        .menu-list {
+            display: flex;
+            align-items: center;
+        }
+        .menu-list__item {
+        }
+        .header__btn {
+        }
+    }
+
+    
+.promo {
+    display: flex;
+    justify-content: space-between;
+    .promo-info {
+        &__title {
+        }
+        &__text {
+        }
+        &__links {
+        }
+        &__link {
+        }
+        &__brands {
+            display: flex;
+            align-items: center;
+            .promo-info__brands-img {
+            }
+        }
+        
+    }
+    
+    .promo-media {
+        &__img {
+
+        }
+    }
+}
+
+    
+}
