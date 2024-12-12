@@ -1,4 +1,6 @@
 .header {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: #fff;
     .header__inner {
         display: flex;
         align-items: center;
@@ -23,6 +25,11 @@
     justify-content: space-between;
     .promo-info {
         &__title {
+            font-weight: 700;
+            font-size: 85px;
+            line-height: 118%;
+            letter-spacing: -0.02em;
+            color: #fff;
         }
         &__text {
         }
