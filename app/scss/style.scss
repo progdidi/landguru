@@ -1,3 +1,6 @@
 @use 'global';
 @use 'var';
 @use 'reset';
+
+@use './blocks/header';
+@use './blocks/features';

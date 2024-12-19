@@ -9,9 +9,11 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    line-height: 25px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 173%;
+    color: var(--text-color);
 }
 
 a{
@@ -29,4 +31,36 @@ button{
     max-width: 1271px;
     padding: 0 10px;
     margin: 0 auto;
+}
+
+.section-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 286%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #244886;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 115%;
+    letter-spacing: -0.03em;
+    color: var(--title-color);
+}
+
+.div-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 153%;
+    letter-spacing: -0.04em;
+    color: var(--title-color);
+}
+
+.item__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 167%;
+    color: var(--title-color);
 }
