@@ -1,0 +1,31 @@
+.quality {
+    padding-bottom: 20px;
+    margin-bottom: 200px;
+    .section-subtitle {
+        text-align: center;
+    }
+    .quality__title {
+        text-align: center;
+        margin-bottom: 78px;
+    }
+
+    .quality__items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 67px;
+        grid-row-gap: 100px;
+    }
+    .quality-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 25px;
+        &__img {
+        }
+        .item__title {
+            margin-bottom: 19px;
+        }
+        &__text {
+        }
+    }
+    
+}

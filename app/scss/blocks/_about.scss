@@ -1,0 +1,34 @@
+.about {
+    margin-bottom: 166px;
+    .about__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .about__img {
+        }
+        .about__info {
+            width: 510px;
+            .section-subtitle {
+                margin-bottom: 28px;
+            }
+            .section-title {
+                margin-bottom: 54px;
+            }
+            .about-item {
+                display: flex;
+                align-items: flex-start;
+                gap: 17px;
+                &__img {
+                }
+                .item__title {
+                    margin-bottom: 20px;
+                }
+                &__text {
+                }
+            }
+            
+        }
+    }
+    
+}
+
