@@ -1,0 +1,59 @@
+.plans {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background: var(--blue-color);
+    color: #fff;
+    .section-subtitle {
+        text-align: center;
+        color: #fff;
+    }
+    .plans__title {
+        text-align: center;
+        margin-bottom: 80px;
+        color: #fff;
+    }
+    .plans__items {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .plans-item {
+        background-color: #2f5392;
+        border-radius: 10px;
+        padding: 70px 40px 50px 40px;
+        width: 480px;
+        &.active {
+            background-color: #fff;
+            color: #343d48;
+        }
+        &__title {
+            font-weight: 700;
+            font-size: 22px;
+            letter-spacing: -0.03em;
+            margin-bottom: 7px;
+        }
+        &__text {
+            opacity: 0.7;
+            margin-bottom: 58px;
+            line-height: 175%;
+        }
+        &__list {
+            margin-bottom: 70px;
+            &-item {
+                line-height: 162%;
+                padding-left: 34px;
+                margin-bottom: 30px;
+                &.not {
+                    opacity: 0.55;
+                }
+    
+            }
+        }
+        &__link {
+            display: block;
+            width: 170px;
+            margin: 0 auto;
+        }
+    }
+    
+}
